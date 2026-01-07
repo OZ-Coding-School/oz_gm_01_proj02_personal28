@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 public class CardEffectManager : MonoBehaviour
@@ -41,29 +40,36 @@ public class CardEffectManager : MonoBehaviour
     private void BulletProof()
     {
         //방탄조끼
+        Debug.Log("방탄조끼");
     }
     private void HypnoticGas()
     {
         //최면가스
+        Debug.Log("최면가스");
     }
     private void EmptyRoom()
     {
         //아무것도없는방
+        Debug.Log("아무것도없는방.");
     }
     private void KillersTrap()
     {
         // 살인마의함정
+        Debug.Log("살인마의 함정");
     }
     private void SilverKey()
     {
         //은열쇠
+        Debug.Log("은열쇠");
     }
     private void LittleProviso()
     {
         //작은단서
+        Debug.Log("작은단서");
     }
     private void WayOut()
     {
         //탈출구
+        Debug.Log("탈출구");
     }
 }

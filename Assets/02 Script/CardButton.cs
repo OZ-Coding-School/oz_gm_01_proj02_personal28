@@ -14,7 +14,7 @@ public class CardButton : MonoBehaviour
     }
     private void ButtonDeactivation()
     {
-       ScaleTween = transform.DOScaleX(0, 1f).OnComplete(() =>
+       ScaleTween = transform.DOScaleX(0, 0.5f).OnComplete(() =>
         {
             gameObject.SetActive(false);
             ScaleTween.Kill();

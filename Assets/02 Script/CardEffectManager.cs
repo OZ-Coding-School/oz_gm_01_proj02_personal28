@@ -23,7 +23,7 @@ public class CardEffectManager : MonoBehaviour
                 break;
             case "은열쇠":
                 SilverKey();
-                    break;
+                break;
             case "살인마의함정":
                 KillersTrap();
                 break;
@@ -39,12 +39,12 @@ public class CardEffectManager : MonoBehaviour
 
     private void BulletProof()
     {
-        //방탄조끼
+        //방탄조끼 : 게임 오버관련 임으로 살인마의 함정 이후작성
         Debug.Log("방탄조끼");
     }
     private void HypnoticGas()
     {
-        //최면가스
+        //최면가스 : 기능 자체는 이미 되어있음.
         Debug.Log("최면가스");
     }
     private void EmptyRoom()
@@ -54,22 +54,23 @@ public class CardEffectManager : MonoBehaviour
     }
     private void KillersTrap()
     {
-        // 살인마의함정
+        // 살인마의함정 게임오버 기능
         Debug.Log("살인마의 함정");
     }
     private void SilverKey()
     {
-        //은열쇠
+        //은열쇠 
         Debug.Log("은열쇠");
     }
     private void LittleProviso()
     {
-        //작은단서
+        //작은단서 - 어떻게 구현할까?
+        //다른 방식으로?
         Debug.Log("작은단서");
     }
     private void WayOut()
     {
-        //탈출구
+        //탈출구 게임 클리어 기능
         Debug.Log("탈출구");
     }
 }

@@ -8,9 +8,6 @@ public class Card : MonoBehaviour
 
     
 
-    private void showEffect()
-    {
-        cardEffectManager.activate(cardName);
-    }
+   
 
 }
